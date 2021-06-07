@@ -6,7 +6,7 @@ spec:
   selector: 
     matchLabels: 
       app: angular 
-  replicas: 2 # tells deployment to run 2 pods  
+  replicas: 2 # Run 2 copies of this pod  
   template:
     metadata: 
       labels: 
